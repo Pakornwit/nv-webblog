@@ -33,7 +33,7 @@ export default {
         }
     },
     methods: {
-        async createUser() {
+        async createUser () {
             try {
                 await UsersService.post(this.user)
                 this.$router.push({
